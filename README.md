@@ -1,3 +1,6 @@
+# pixels-to-products-cloudinary-ai-hackathon-2026-code-pe-charcha
+> **Hackathon Team**: Code Pe Charcha — `[hackindia-team:pixels-to-products-cloudinary-ai-hackathon-2026:code-pe-charcha]`
+
 # MediaShield
 
 > **Upload. Understand. Protect. Optimize. Deliver.**  
@@ -16,6 +19,7 @@
 * **Hackathon Track**: **Track 1 — AI Media Pipelines**
 * **Project Name**: MediaShield
 * **Tagline**: Upload. Understand. Protect. Optimize. Deliver.
+* **Team Name**: Code Pe Charcha
 * **Core Media Engine**: Cloudinary (Upload, AI Analysis, Moderation, Tagging, Smart Crop, Background Removal, Search, and Edge Delivery)
 
 ---
@@ -154,8 +158,8 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/your-username/mediashield.git
-cd mediashield
+git clone https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-code-pe-charcha.git
+cd pixels-to-products-cloudinary-ai-hackathon-2026-code-pe-charcha
 npm install
 ```
 
@@ -242,4 +246,4 @@ Judges can evaluate the entire application story in under 3 minutes:
 
 ## License
 
-MIT License. Developed for the Cloudinary Hackathon 2026.
+MIT License. Copyright (c) 2026 HackIndia.
