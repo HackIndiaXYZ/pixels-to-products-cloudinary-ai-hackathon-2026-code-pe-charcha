@@ -29,7 +29,6 @@ export function Navbar() {
     { href: '/library', label: 'Library', icon: FolderSearch },
     { href: '/transform', label: 'Transform Studio', icon: Sliders },
     { href: '/search', label: 'Search', icon: FolderSearch },
-    { href: '/cloudinary', label: 'Cloudinary Pipeline', icon: Layers },
     { href: '/architecture', label: 'Architecture', icon: Cpu },
   ];
 
@@ -50,7 +49,7 @@ export function Navbar() {
                 </span>
               </span>
               <span className="text-[10px] text-slate-400 -mt-1 tracking-wider uppercase font-medium">
-                Cloudinary Pipeline
+                Media Intelligence
               </span>
             </div>
           </Link>

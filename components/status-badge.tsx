@@ -36,7 +36,7 @@ export function StatusBadge() {
         title="Click to view Cloudinary connection diagnostics"
       >
         <span className={`w-2 h-2 rounded-full animate-pulse ${status.isLive ? 'bg-emerald-400' : 'bg-amber-400'}`} />
-        {status.isLive ? 'LIVE CLOUDINARY' : 'DEMO MODE'}
+        {status.isLive ? 'CLOUD ENGINE: ACTIVE' : 'SANDBOX MODE'}
       </button>
 
       {isOpen && (

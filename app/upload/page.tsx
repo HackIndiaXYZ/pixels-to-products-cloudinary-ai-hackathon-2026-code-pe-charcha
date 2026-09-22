@@ -129,13 +129,13 @@ export default function UploadPage() {
       <div className="text-center space-y-2">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Track 1: Cloudinary Ingestion Engine</span>
+          <span>Autonomous Ingestion Engine</span>
         </div>
         <h1 className="text-3xl font-black text-white tracking-tight">
           AI Media Ingestion &amp; Intelligence Pipeline
         </h1>
         <p className="text-sm text-slate-400 max-w-xl mx-auto">
-          Upload any raw image to trigger automated Cloudinary upload, object detection,
+          Upload any raw image to trigger automated cloud upload, object detection,
           content moderation, and responsive variant generation.
         </p>
       </div>
@@ -201,7 +201,7 @@ export default function UploadPage() {
         <div className="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-6">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-sm font-bold text-white">Cloudinary Pipeline Status</h3>
+              <h3 className="text-sm font-bold text-white">Autonomous Pipeline Status</h3>
               <p className="text-xs text-slate-400">Autonomous multi-stage processing</p>
             </div>
             {step === 'idle' && (
@@ -227,7 +227,7 @@ export default function UploadPage() {
                 <span className="w-4 h-4 rounded-full border border-slate-700" />
               )}
               <span className={step === 'uploading' ? 'text-blue-400 font-semibold' : step === 'idle' ? 'text-slate-600' : 'text-slate-200'}>
-                {step === 'uploading' ? 'Uploading to Cloudinary...' : '✓ Uploaded'}
+                {step === 'uploading' ? 'Uploading media to cloud...' : '✓ Uploaded'}
               </span>
             </div>
 

@@ -5,11 +5,10 @@ import Link from 'next/link';
 import { ShieldCheck, Cloud, Heart } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'MediaShield — Cloudinary AI Media Intelligence Platform',
+  title: 'MediaShield — Enterprise AI Media Intelligence Platform',
   description:
-    'Upload. Understand. Protect. Optimize. Deliver. An enterprise-grade AI media pipeline powered by Cloudinary for Track 1: AI Media Pipelines.',
+    'Upload. Understand. Protect. Optimize. Deliver. An enterprise-grade AI media intelligence, moderation, and automated optimization platform.',
   keywords: [
-    'Cloudinary',
     'AI Media Pipeline',
     'Content Moderation',
     'Auto Tagging',
@@ -36,24 +35,23 @@ export default function RootLayout({
               <ShieldCheck className="w-4 h-4 text-blue-400" />
               <span className="font-semibold text-slate-200">MediaShield</span>
               <span className="text-slate-600">•</span>
-              <span>Track 1: AI Media Pipelines</span>
+              <span>Enterprise Media Intelligence &amp; CDN</span>
             </div>
 
             <div className="flex items-center gap-6">
-              <Link href="/cloudinary" className="hover:text-slate-200 transition-colors">
-                Cloudinary Pipeline
-              </Link>
               <Link href="/architecture" className="hover:text-slate-200 transition-colors">
                 Architecture
               </Link>
               <Link href="/library" className="hover:text-slate-200 transition-colors">
                 Media Library
               </Link>
+              <Link href="/transform" className="hover:text-slate-200 transition-colors">
+                Transformation Studio
+              </Link>
             </div>
 
             <div className="flex items-center gap-1 text-slate-500">
-              <span>Built for Cloudinary Hackathon</span>
-              <Cloud className="w-3.5 h-3.5 text-blue-400 ml-1 inline" />
+              <span>Production AI Media Engine</span>
             </div>
           </div>
         </footer>

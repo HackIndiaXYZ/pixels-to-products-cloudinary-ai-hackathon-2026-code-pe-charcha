@@ -27,10 +27,10 @@ export default function LandingPage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-gradient-to-r from-blue-600/15 via-cyan-500/10 to-indigo-600/15 blur-3xl -z-10 rounded-full pointer-events-none" />
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
-          {/* Track Tag */}
+          {/* Platform Tag */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-xs font-semibold text-blue-400">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Cloudinary Hackathon • Track 1 — AI Media Pipelines</span>
+            <span>Autonomous AI Media Intelligence &amp; CDN Platform</span>
           </div>
 
           {/* Heading */}
@@ -44,7 +44,7 @@ export default function LandingPage() {
           {/* Subtitle */}
           <p className="max-w-3xl mx-auto text-lg sm:text-xl text-slate-300 font-normal leading-relaxed">
             MediaShield automatically analyzes, protects, transforms, optimizes and organizes
-            your media using an AI-powered Cloudinary pipeline.
+            your media using an autonomous multi-stage AI media pipeline.
           </p>
 
           {/* Tagline */}
@@ -71,11 +71,11 @@ export default function LandingPage() {
             </Link>
 
             <Link
-              href="/cloudinary"
+              href="/architecture"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-950 hover:bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 font-medium text-sm transition-all"
             >
-              <Layers className="w-4 h-4" />
-              <span>Explore Pipeline</span>
+              <Cpu className="w-4 h-4" />
+              <span>Platform Architecture</span>
             </Link>
           </div>
 
@@ -152,7 +152,7 @@ export default function LandingPage() {
               <h4 className="text-xl font-bold text-blue-200">The MediaShield Solution</h4>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed">
-              MediaShield turns Cloudinary into an autonomous AI media refinery. One upload triggers
+              MediaShield acts as an autonomous visual AI refinery. One upload triggers
               a zero-friction processing pipeline:
             </p>
             <ul className="space-y-3 text-sm text-slate-400">
@@ -177,15 +177,15 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Cloudinary Pipeline Flow */}
+      {/* Autonomous Pipeline Flow */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="text-center space-y-3">
           <h2 className="text-xs uppercase font-bold tracking-widest text-blue-400">Core Architecture</h2>
           <h3 className="text-3xl font-extrabold text-white tracking-tight">
-            The 8-Stage Cloudinary Media Pipeline
+            The 8-Stage Autonomous Media Pipeline
           </h3>
           <p className="text-sm text-slate-400 max-w-2xl mx-auto">
-            MediaShield directly leverages Cloudinary APIs across each layer of the ingestion lifecycle.
+            MediaShield orchestrates visual intelligence, moderation guardrails, and neural transformations across each layer of the media lifecycle.
           </p>
         </div>
 
@@ -193,51 +193,51 @@ export default function LandingPage() {
           {[
             {
               step: '01',
-              title: 'Upload API',
-              desc: 'Stream file buffer securely to Cloudinary with folder organization and metadata hooks.',
-              badge: 'cloudinary.uploader',
+              title: 'Ingestion & Upload',
+              desc: 'Stream raw media securely into cloud storage with folder isolation and metadata hooks.',
+              badge: 'Stream Pipeline',
             },
             {
               step: '02',
-              title: 'AI Analysis',
+              title: 'AI Visual Analysis',
               desc: 'Extract visual labels, predominant hex colors, facial detection, and confidence ratings.',
-              badge: 'colors / faces / info',
+              badge: 'Neural Vision',
             },
             {
               step: '03',
               title: 'Content Moderation',
               desc: 'Screen adult, violence, hate, and weapon violations before marking assets production-ready.',
-              badge: 'moderation / safety',
+              badge: 'Safety Guardrails',
             },
             {
               step: '04',
               title: 'Auto-Tagging',
-              desc: 'Generate semantic keywords stored directly on Cloudinary asset records for searchability.',
-              badge: 'tags / metadata',
+              desc: 'Generate semantic keywords stored directly on asset records for searchability.',
+              badge: 'Semantic Index',
             },
             {
               step: '05',
               title: 'Background Removal',
               desc: 'Isolate foreground subjects for clean e-commerce catalogs and transparent marketing banners.',
-              badge: 'e_background_removal',
+              badge: 'Neural Cutout',
             },
             {
               step: '06',
               title: 'Smart Crop Studio',
               desc: 'Content-aware gravity cropping preserving key subjects across social aspect ratios.',
-              badge: 'c_fill, g_auto',
+              badge: 'Content-Aware',
             },
             {
               step: '07',
               title: 'Format & Quality',
               desc: 'Deliver modern WebP/AVIF formats at optimal perceptual quality with up to 94% compression.',
-              badge: 'f_auto, q_auto',
+              badge: 'Perceptual Opt',
             },
             {
               step: '08',
-              title: 'Search & CDN',
-              desc: 'Query asset catalog instantly via Cloudinary Search API and deliver globally with sub-50ms latency.',
-              badge: 'cloudinary.search',
+              title: 'Search & CDN Delivery',
+              desc: 'Query asset catalog instantly via full-text search and deliver globally with sub-50ms latency.',
+              badge: 'Global Edge CDN',
             },
           ].map((item) => (
             <div
@@ -260,10 +260,10 @@ export default function LandingPage() {
 
         <div className="text-center pt-4">
           <Link
-            href="/cloudinary"
+            href="/architecture"
             className="inline-flex items-center gap-2 text-xs font-bold text-blue-400 hover:text-blue-300 tracking-wide"
           >
-            <span>Read full Cloudinary API parameter breakdown &amp; code reference</span>
+            <span>Read full system architecture &amp; security specification</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
@@ -274,7 +274,7 @@ export default function LandingPage() {
         <div className="text-center space-y-3">
           <h2 className="text-xs uppercase font-bold tracking-widest text-blue-400">Enterprise Capabilities</h2>
           <h3 className="text-3xl font-extrabold text-white tracking-tight">
-            Engineered For Hackathons, Built For Production
+            Engineered For Enterprise Scale, Built For Production
           </h3>
         </div>
 
